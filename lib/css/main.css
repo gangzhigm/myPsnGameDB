@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border:0;
+}
+body{
+	background: #F2EEE3;
+}
+#PSV>h2,#PS3>h2,#PS4>h2{
+	color: #fff;
+}
+#PSV,#PS3,#PS4{
+	float: left;
+	border-radius: 6px;
+}	
+#PSV>div,#PS4>div,#PS3>div{
+	color: #fff;
+	text-indent: 10px;
+}
+#PSV>div,#PS4>div,#PS3>div{
+margin: 10px 0;
+}
+
+#PSV{
+	background: #FC1A86;
+}
+#PS3{
+	background: #F8CD28;
+}
+#PS4{
+	background: #43BEF7;
+}
+/*.leixing{
+	margin: 10px 0px;
+}*/
+.leixing>div{
+	text-align: center;
+	margin: 0 0px;
+	border-radius: 5px;
+}
+.leixing>div:nth-child(1){
+	background:	#f53240 ;
+}
+.leixing>div:nth-child(2){
+	background:	#f9be02 ;
+}
+.leixing>div:nth-child(3){
+	background:	#02c8a7 ;
+}
+.leixing>div:nth-child(4){
+	background:	#f53240 ;
+}
+.leixing>div:nth-child(5){
+	background:	#f9be02 ;
+}
+.leixing>div:nth-child(6){
+	background:	#02c8a7 ;
+}
+.leixing>div:nth-child(7){
+	background:	#f53240 ;
+}
+.leixing>div:nth-child(8){
+	background:	#f9be02 ;
+}
+.leixing>div:nth-child(9){
+	background:	#02c8a7 ;
+}
+.leixing>div:nth-child(10){
+	background:	#f53240 ;
+}
+.leixing>div:nth-child(11){
+	background:	#f9be02 ;
+}
+.leixing>div:nth-child(12){
+	background:	#02c8a7 ;
+}
+
