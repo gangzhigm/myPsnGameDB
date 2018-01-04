@@ -1,0 +1,12 @@
+{
+  "name": "myPsnGameDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gangzhigm/myPsnGameDB.git",
+  "author": "gangzhigm <864853934@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-route": "^1.5.1"
+  }
+}
