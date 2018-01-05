@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/gangzhigm/myPsnGameDB.git",
   "author": "gangzhigm <864853934@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html -p 3000",
+    "build": "parcel watch src/index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
+  }
 }
