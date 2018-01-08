@@ -1,13 +1,10 @@
+import classes from '../css/main.css'
 $(function(){
-	var psvList=document.querySelector("#PSV");
-	var ps3List=document.querySelector("#PS3");
-	var ps4List=document.querySelector("#PS4");
+	var psvList=document.querySelector("#"+classes.PSV);
+	var ps3List=document.querySelector("#"+classes.PS3);
+	var ps4List=document.querySelector("#"+classes.PS4);
 	var numbers = psndata.game;
 	numbers.forEach(addGame);
-
-
-
-
 	function addGame(item, index) {
 		if (item.playstation=="psv") {
 			psvList.innerHTML = psvList.innerHTML +"<div>"+ item.name +"</div>";	

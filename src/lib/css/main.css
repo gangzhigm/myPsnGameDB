@@ -11,8 +11,8 @@ body{
 	color: #fff;
 }
 #PSV,#PS3,#PS4{
-	float: left;
 	border-radius: 6px;
+	border: 5px solid transparent;
 }	
 #PSV>div,#PS4>div,#PS3>div{
 	color: #fff;
@@ -31,48 +31,3 @@ margin: 10px 0;
 #PS4{
 	background: #43BEF7;
 }
-/*.leixing{
-	margin: 10px 0px;
-}*/
-.leixing>div{
-	text-align: center;
-	margin: 0 0px;
-	border-radius: 5px;
-}
-.leixing>div:nth-child(1){
-	background:	#f53240 ;
-}
-.leixing>div:nth-child(2){
-	background:	#f9be02 ;
-}
-.leixing>div:nth-child(3){
-	background:	#02c8a7 ;
-}
-.leixing>div:nth-child(4){
-	background:	#f53240 ;
-}
-.leixing>div:nth-child(5){
-	background:	#f9be02 ;
-}
-.leixing>div:nth-child(6){
-	background:	#02c8a7 ;
-}
-.leixing>div:nth-child(7){
-	background:	#f53240 ;
-}
-.leixing>div:nth-child(8){
-	background:	#f9be02 ;
-}
-.leixing>div:nth-child(9){
-	background:	#02c8a7 ;
-}
-.leixing>div:nth-child(10){
-	background:	#f53240 ;
-}
-.leixing>div:nth-child(11){
-	background:	#f9be02 ;
-}
-.leixing>div:nth-child(12){
-	background:	#02c8a7 ;
-}
-

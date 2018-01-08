@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border:0;
+}
+body{
+	background: #F2EEE3;
+}
+#_PSV_290oh_1>h2,#_PS3_290oh_1>h2,#_PS4_290oh_1>h2{
+	color: #fff;
+}
+#_PSV_290oh_1,#_PS3_290oh_1,#_PS4_290oh_1{
+	border-radius: 6px;
+	border: 10px solid #58a;
+}	
+#_PSV_290oh_1>div,#_PS4_290oh_1>div,#_PS3_290oh_1>div{
+	color: #fff;
+	text-indent: 10px;
+}
+#_PSV_290oh_1>div,#_PS4_290oh_1>div,#_PS3_290oh_1>div{
+margin: 10px 0;
+}
+
+#_PSV_290oh_1{
+	background: #FC1A86;
+}
+#_PS3_290oh_1{
+	background: #F8CD28;
+}
+#_PS4_290oh_1{
+	background: #43BEF7;
+}

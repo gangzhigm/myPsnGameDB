@@ -1,4 +1,4 @@
+import addClass from './css/class';
 import addGame from './js/addGame';
-// import addClass from './css/class';
+addClass();
 addGame();
-// addClass();
