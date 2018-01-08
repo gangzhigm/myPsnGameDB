@@ -9,12 +9,35 @@ body {
   margin-top: 20px;
   cursor: default	;
 }
-._h1_1acqx_12 {
+._h1_1ca2k_12 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-#_content_1acqx_1 {
+label {
+  text-align: right;
+  position: relative;
+}
+label #_input_1ca2k_1 {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  left: 3.5em;
+  width: 0;
+}
+label #_input_1ca2k_1:focus {
+  width: 30em;
+}
+label ._icon_1ca2k_32 {
+  width: 3em;
+  height: 3em;
+  fill: currentColor;
+  overflow: hidden;
+}
+#_content_1ca2k_1 {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,9 +49,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-#_content_1acqx_1 #_PSV_1acqx_1,
-#_content_1acqx_1 #_PS3_1acqx_1,
-#_content_1acqx_1 #_PS4_1acqx_1 {
+#_content_1ca2k_1 #_PSV_1ca2k_1 {
+  background-color: #FC1A86;
+}
+#_content_1ca2k_1 #_PS3_1ca2k_1 {
+  background-color: #F8CD28;
+}
+#_content_1ca2k_1 #_PS4_1ca2k_1 {
+  background-color: #43BEF7;
+}
+#_content_1ca2k_1 #_PSV_1ca2k_1,
+#_content_1ca2k_1 #_PS3_1ca2k_1,
+#_content_1ca2k_1 #_PS4_1ca2k_1 {
   border-radius: 6px;
   margin: 0 5px;
   padding: 5px;
@@ -37,14 +69,15 @@ body {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-#_content_1acqx_1 #_PSV_1acqx_1 h2,
-#_content_1acqx_1 #_PS3_1acqx_1 h2,
-#_content_1acqx_1 #_PS4_1acqx_1 h2 {
+#_content_1ca2k_1 #_PSV_1ca2k_1 h2,
+#_content_1ca2k_1 #_PS3_1ca2k_1 h2,
+#_content_1ca2k_1 #_PS4_1ca2k_1 h2 {
   color: #fff;
 }
-#_content_1acqx_1 #_PSV_1acqx_1 div,
-#_content_1acqx_1 #_PS3_1acqx_1 div,
-#_content_1acqx_1 #_PS4_1acqx_1 div {
+#_content_1ca2k_1 #_PSV_1ca2k_1 div,
+#_content_1ca2k_1 #_PS3_1ca2k_1 div,
+#_content_1ca2k_1 #_PS4_1ca2k_1 div {
+  width: 100%;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -55,13 +88,13 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
 }
-#_PSV_1acqx_1 {
-  background-color: #FC1A86;
-}
-#_PS3_1acqx_1 {
-  background-color: #F8CD28;
-}
-#_PS4_1acqx_1 {
-  background-color: #43BEF7;
+#_content_1ca2k_1 #_PSV_1ca2k_1 div:hover,
+#_content_1ca2k_1 #_PS3_1ca2k_1 div:hover,
+#_content_1ca2k_1 #_PS4_1ca2k_1 div:hover {
+  padding-left: 10px;
+  text-shadow: 0 0 10px #000000;
 }

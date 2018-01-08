@@ -5,8 +5,13 @@ let element = `
     <div class="col-xs-12 col-sm-8">
         <H1 class="${classes.h1}">在线游戏索引库<small><strong>从下载列表里一个一个找,真的很烦</strong></small></H1>
     </div>
-    <div class="form-group col-xs-12 col-sm-4">
-        <input class="form-control" type="" name="">
+    <div class="col-xs-12 col-sm-4">
+        <label for="${classes.input}">
+            <svg class="${classes.icon}" aria-hidden="true">
+                <use xlink:href="#icon-icon-test"></use>
+            </svg>
+            <input id="${classes.input}"  type="" name="">
+        </label>
     </div>
 </div>
 <div class="row">
