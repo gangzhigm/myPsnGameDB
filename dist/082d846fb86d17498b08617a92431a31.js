@@ -138,11 +138,13 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       module.exports = {
-  "PSV": "_PSV_290oh_1",
-  "PS3": "_PS3_290oh_1",
-  "PS4": "_PS4_290oh_1"
+  "h1": "_h1_11twf_19",
+  "PSV": "_PSV_11twf_1",
+  "PS3": "_PS3_11twf_1",
+  "PS4": "_PS4_11twf_1",
+  "content": "_content_11twf_1"
 };
-},{"_css_loader":6}],4:[function(require,module,exports) {
+},{"_css_loader":6}],3:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -155,14 +157,14 @@ var _main2 = _interopRequireDefault(_main);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var element = "\n<div class=\"container-fluid\">\n<div class=\"row\">\n    <div class=\"col-xs-12 col-sm-8\">\n        <H1>\u5728\u7EBF\u6E38\u620F\u7D22\u5F15\u5E93<small><strong>\u4ECE\u4E0B\u8F7D\u5217\u8868\u91CC\u4E00\u4E2A\u4E00\u4E2A\u627E,\u771F\u7684\u5F88\u70E6</strong></small></H1>\n    </div>\n    <div class=\"form-group col-xs-12 col-sm-4\">\n        <input class=\"form-control\" type=\"\" name=\"\">\n    </div>\n</div>\n<div class=\"row\">\n    <div id=\"" + _main2.default.PS3 + "\" class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\"> \n        <h2>PS3</h2>\n    </div>\n    <div id=\"" + _main2.default.PS4 + "\" class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n        <h2>PS4</h2>\n    </div>\n    <div id=\"" + _main2.default.PSV + "\" class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n        <h2>PSV</h2>\n    </div>\n</div>\n</div>\n";
+var element = "\n<div class=\"container-fluid\">\n<div class=\"row\">\n    <div class=\"col-xs-12 col-sm-8\">\n        <H1 class=\"" + _main2.default.h1 + "\">\u5728\u7EBF\u6E38\u620F\u7D22\u5F15\u5E93<small><strong>\u4ECE\u4E0B\u8F7D\u5217\u8868\u91CC\u4E00\u4E2A\u4E00\u4E2A\u627E,\u771F\u7684\u5F88\u70E6</strong></small></H1>\n    </div>\n    <div class=\"form-group col-xs-12 col-sm-4\">\n        <input class=\"form-control\" type=\"\" name=\"\">\n    </div>\n</div>\n<div class=\"row\">\n    <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\" id='" + _main2.default.content + "'>\n    <div id=\"" + _main2.default.PS3 + "\"> \n        <h2>PS3</h2>\n    </div>\n    <div id=\"" + _main2.default.PS4 + "\">\n        <h2>PS4</h2>\n    </div>\n    <div id=\"" + _main2.default.PSV + "\">\n        <h2>PSV</h2>\n    </div>\n    </div>\n</div>\n</div>\n";
 document.write(element);
 exports.default = {
   return: function _return() {
     console.log('asd');
   }
 };
-},{"./main.css":5}],3:[function(require,module,exports) {
+},{"./main.css":5}],4:[function(require,module,exports) {
 "use strict";
 
 var _main = require("../css/main.css");
@@ -217,7 +219,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (0, _class2.default)();
 (0, _addGame2.default)();
-},{"./css/class":4,"./js/addGame":3}],0:[function(require,module,exports) {
+},{"./css/class":3,"./js/addGame":4}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -235,7 +237,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':52621/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':55354/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
