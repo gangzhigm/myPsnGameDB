@@ -132,17 +132,17 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":8}],5:[function(require,module,exports) {
+},{"./bundle-url":8}],10:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       module.exports = {
-  "h1": "_h1_mszi6_27",
-  "PSV": "_PSV_mszi6_1",
-  "PS3": "_PS3_mszi6_1",
-  "PS4": "_PS4_mszi6_1",
-  "content": "_content_mszi6_1"
+  "h1": "_h1_1acqx_12",
+  "content": "_content_1acqx_1",
+  "PSV": "_PSV_1acqx_1",
+  "PS3": "_PS3_1acqx_1",
+  "PS4": "_PS4_1acqx_1"
 };
 },{"_css_loader":7}],3:[function(require,module,exports) {
 "use strict";
@@ -151,7 +151,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _main = require("./main.css");
+var _main = require("./main.less");
 
 var _main2 = _interopRequireDefault(_main);
 
@@ -164,7 +164,7 @@ exports.default = {
     console.log('asd');
   }
 };
-},{"./main.css":5}],6:[function(require,module,exports) {
+},{"./main.less":10}],6:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -176,7 +176,7 @@ exports.default = {
 },{}],4:[function(require,module,exports) {
 "use strict";
 
-var _main = require("../css/main.css");
+var _main = require("../css/main.less");
 
 var _main2 = _interopRequireDefault(_main);
 
@@ -213,7 +213,7 @@ $(function () {
 // arr	                                            可选。当前元素所属的数组对象。
 // thisValue	                                    可选。传递给函数的值一般用 "this" 值。
 //                                                 如果这个参数为空， "undefined" 会传递给 "this" 值
-},{"../css/main.css":5,"../data/psnGame":6}],2:[function(require,module,exports) {
+},{"../css/main.less":10,"../data/psnGame":6}],2:[function(require,module,exports) {
 "use strict";
 
 var _class = require("./css/class");

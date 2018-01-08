@@ -1,65 +1,67 @@
-
-*{
-	padding: 0;
-	margin: 0;
-	outline: 0;
-	border:0;
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
 }
-body{
-	background: #F2EEE3;
-	margin-top: 20px;
-	cursor: default	;
-
+body {
+  background: #F2EEE3;
+  margin-top: 20px;
+  cursor: default	;
 }
-._h1_mszi6_27{
-	overflow: hidden; 
-	text-overflow: ellipsis;
-	white-space: nowrap;
+._h1_1acqx_12 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-#_PSV_mszi6_1>h2,#_PS3_mszi6_1>h2,#_PS4_mszi6_1>h2{
-	color: #fff;
+#_content_1acqx_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-#_content_mszi6_1{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack:center;
-	    -ms-flex-pack:center;
-	        justify-content:center;
+#_content_1acqx_1 #_PSV_1acqx_1,
+#_content_1acqx_1 #_PS3_1acqx_1,
+#_content_1acqx_1 #_PS4_1acqx_1 {
+  border-radius: 6px;
+  margin: 0 5px;
+  padding: 5px;
+  width: 33%;
+  height: auto;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
-#_PSV_mszi6_1,#_PS3_mszi6_1,#_PS4_mszi6_1{
-	border-radius: 6px;
-	margin:0 5px;
-	padding: 5px;
-	width: 33%;
-	height: auto;
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
-	
-}	
-#_PSV_mszi6_1>div,#_PS4_mszi6_1>div,#_PS3_mszi6_1>div{
-	-webkit-user-select:none;
-	   -moz-user-select:none;
-	    -ms-user-select:none;
-	        user-select:none;
-	color: #fff;
-	text-indent: 10px;
-	margin: 10px 0;
-	overflow: hidden; 
-	text-overflow: ellipsis;
-	white-space: nowrap;
+#_content_1acqx_1 #_PSV_1acqx_1 h2,
+#_content_1acqx_1 #_PS3_1acqx_1 h2,
+#_content_1acqx_1 #_PS4_1acqx_1 h2 {
+  color: #fff;
 }
-#_PSV_mszi6_1>div,#_PS4_mszi6_1>div,#_PS3_mszi6_1>div
-#_PSV_mszi6_1{
-	background-color: #FC1A86;
+#_content_1acqx_1 #_PSV_1acqx_1 div,
+#_content_1acqx_1 #_PS3_1acqx_1 div,
+#_content_1acqx_1 #_PS4_1acqx_1 div {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #fff;
+  text-indent: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-#_PS3_mszi6_1{
-	background-color: #F8CD28;
+#_PSV_1acqx_1 {
+  background-color: #FC1A86;
 }
-#_PS4_mszi6_1{
-	background-color: #43BEF7;
+#_PS3_1acqx_1 {
+  background-color: #F8CD28;
+}
+#_PS4_1acqx_1 {
+  background-color: #43BEF7;
 }

@@ -1,4 +1,4 @@
-import classes from './main.css'
+import classes from './main.less'
 let element = `
 <div class="container-fluid">
 <div class="row">

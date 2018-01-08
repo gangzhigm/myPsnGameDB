@@ -1,4 +1,4 @@
-import classes from '../css/main.css'
+import classes from '../css/main.less'
 import psnGame from '../data/psnGame'
 const psndata=psnGame;
 $(function(){
