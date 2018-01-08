@@ -6,16 +6,17 @@
 }
 body{
 	background: #F2EEE3;
+	margin-top: 20px;
 }
-._h1_11twf_19{
+._h1_1wjxb_21{
 	overflow: hidden; 
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-#_PSV_11twf_1>h2,#_PS3_11twf_1>h2,#_PS4_11twf_1>h2{
+#_PSV_1wjxb_1>h2,#_PS3_1wjxb_1>h2,#_PS4_1wjxb_1>h2{
 	color: #fff;
 }
-#_content_11twf_1{
+#_content_1wjxb_1{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -27,13 +28,13 @@ body{
 	    -ms-flex-pack:center;
 	        justify-content:center;
 }
-#_PSV_11twf_1,#_PS3_11twf_1,#_PS4_11twf_1{
+#_PSV_1wjxb_1,#_PS3_1wjxb_1,#_PS4_1wjxb_1{
 	border-radius: 6px;
 	margin:0 5px;
 	padding: 5px;
 	width: 33%;
 }	
-#_PSV_11twf_1>div,#_PS4_11twf_1>div,#_PS3_11twf_1>div{
+#_PSV_1wjxb_1>div,#_PS4_1wjxb_1>div,#_PS3_1wjxb_1>div{
 	color: #fff;
 	text-indent: 10px;
 	margin: 10px 0;
@@ -42,12 +43,12 @@ body{
 	white-space: nowrap;
 }
 
-#_PSV_11twf_1{
+#_PSV_1wjxb_1{
 	background-color: #FC1A86;
 }
-#_PS3_11twf_1{
+#_PS3_1wjxb_1{
 	background-color: #F8CD28;
 }
-#_PS4_11twf_1{
+#_PS4_1wjxb_1{
 	background-color: #43BEF7;
 }
