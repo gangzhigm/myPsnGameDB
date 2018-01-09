@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import psnGame from "./data/psnGame";
+import psnGame from "../data/psnGame";
 
 export default {
   data() {
