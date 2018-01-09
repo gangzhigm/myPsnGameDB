@@ -6,13 +6,14 @@
   "author": "gangzhigm <864853934@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html -p 3000",
-    "build": "parcel watch src/index.html"
+    "dev": "parcel index.html -p 3000",
+    "build": "parcel watch index.html"
   },
   "dependencies": {
     "autoprefixer": "^7.2.4",
     "babel-preset-env": "^1.6.1",
     "less": "^2.7.3",
+    "normalize.css": "^7.0.0",
     "parcel-bundler": "^1.4.1",
     "parcel-plugin-vue": "^1.5.0",
     "postcss-modules": "^1.1.0",
