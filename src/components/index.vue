@@ -1,41 +1,28 @@
 <template>
   <div id="vue">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8">
-          <H1 class="h1">在线游戏索引库
-            <small>
-              <strong>从下载列表里一个一个找,真的很烦</strong>
-            </small>
-          </H1>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <label for="input">
-            <svg class="icon" aria-hidden="true">
-              <use xlink:href="#icon-icon-test"></use>
-            </svg>
-            <input id="input" type="" name="">
-          </label>
-        </div>
-      </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id='content'>
           <div id="PS3">
             <h2>PS3</h2>
-            <div v-for="(item,index) in ps3">{{item}}</div>
+            <router-link  v-for="(item,index) in ps3" :to="{name: 'games',params:{id:index}}">
+              <div>{{item.name}}</div>
+            </router-link>
           </div>
           <div id="PS4">
             <h2>PS4</h2>
-            <div v-for="(item,index) in ps4">{{item}}</div>
+            <router-link  v-for="(item,index) in ps4" :to="{name: 'games',params:{id:index}}">
+              <div>{{item.name}}</div>
+            </router-link>
           </div>
           <div id="PSV">
             <h2>PSV</h2>
-            <div v-for="(item,index) in psv">{{item}}</div>
+            <router-link  v-for="(item,index) in psv" :to="{name: 'games',params:{id:index}}">
+              <div>{{item.name}}</div>
+            </router-link>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -53,13 +40,13 @@ export default {
     const psndata = psnGame;
     for (var value of psndata.game) {
       if (value.playstation.indexOf("ps3") >= 0) {
-        this.ps3.push(value.name);
+        this.ps3.push(value);
       }
       if (value.playstation.indexOf("ps4") >= 0) {
-        this.ps4.push(value.name);
+        this.ps4.push(value);
       }
       if (value.playstation.indexOf("psv") >= 0) {
-        this.psv.push(value.name);
+        this.psv.push(value);
       }
     }
   }
@@ -67,43 +54,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
-* {
-			padding: 0;
-			margin: 0;
-			outline: 0;
-			border: 0;
-		}
-body {
-			background: #f2eee3;
-			margin-top: 20px;
-			cursor: default;
-		}
-.h1 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-label {
-  text-align: right;
-  position: relative;
-  #input {
-    transition: all 0.4s;
-    height: 3em;
-    position: absolute;
-    top: 0;
-    left: 3.5em;
-    width: 0;
-    &:focus {
-      width: 30em;
-    }
-  }
-  .icon {
-    width: 3em;
-    height: 3em;
-    fill: currentColor;
-    overflow: hidden;
-  }
-}
+
+a:hover{
+        text-decoration: none;
+      }
 #content {
   margin-top: 10px;
   display: flex;
