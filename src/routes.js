@@ -9,10 +9,8 @@ import games from './components/games.vue'
 export default [
     {
         path: '/',
-        component: index,
-        children:[
-                
-            ]
+        name:'index',
+        component: games,
     },
     {
         path: 'conponents:id',
