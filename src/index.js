@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue.js';
 import App from './app.vue';
-
+import 'normalize.css'  
 const app = window.addEventListener('load', () => {
   new Vue({
     "el": "#vueapp",

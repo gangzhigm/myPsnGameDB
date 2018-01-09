@@ -68,16 +68,16 @@ export default {
 
 <style lang="less" scoped>
 * {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-  border: 0;
-}
+			padding: 0;
+			margin: 0;
+			outline: 0;
+			border: 0;
+		}
 body {
-  background: #f2eee3;
-  margin-top: 20px;
-  cursor: default;
-}
+			background: #f2eee3;
+			margin-top: 20px;
+			cursor: default;
+		}
 .h1 {
   overflow: hidden;
   text-overflow: ellipsis;
