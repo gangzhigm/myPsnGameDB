@@ -13,7 +13,7 @@ export default [
         component: games,
     },
     {
-        path: 'conponents:id',
+        path: '/conponents:id',
         name: 'games',
         component: games
     }

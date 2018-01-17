@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-xs-12 col-sm-8">
                 <H1 class="h1">在线游戏索引库
                     <small>
@@ -16,7 +16,7 @@
                     <input id="input" type="" name="">
                 </label>
             </div>
-        </div>
+        </div> -->
         <router-view></router-view>
     </div>
 </template>

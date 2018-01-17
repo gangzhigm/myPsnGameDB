@@ -1,5 +1,22 @@
 <template>
   <div id="vue">
+    <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <H1 class="h1">在线游戏索引库
+                    <small>
+                        <strong>从下载列表里一个一个找,真的很烦</strong>
+                    </small>
+                </H1>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <label for="input">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-icon-test"></use>
+                    </svg>
+                    <input id="input" type="" name="">
+                </label>
+            </div>
+        </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id='content'>
           <div id="PS3">
